@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Weather App</title>
+        <meta name = "vieport" content = "width=device-width, initial-scale=1.0">
+        <meta name = "author" content = "Andreea - Alina">
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+
+    <body>
+        <div class = "card">
+
+            <div class="search">
+                <input id = "textbar" type="text" placeholder = "Enter a city..." spellcheck = "false">
+                <button id = "buton"><img src = "images/search.png"></button>
+            </div>
+
+            <div class = "weather">
+                <img src = "images/rain.png" class = "weather-icon">
+                <h1 class = "temp">-°C</h1>
+                <h2 class = "city">-</h2>
+                <h3 class = "feels_like">Feels like -°C</h3>
+            </div>
+
+            <div class = "details">
+                <div class = "col">
+                  <img src = "images/humidity.png">
+                  <div>
+                    <p class = "humidity">-%</p>
+                    <p>Humidity</p>
+                  </div>  
+                </div>
+                <div class = "col">
+                    <img src = "images/wind.png">
+                    <div>
+                        <p class = "wind">-km/h</p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class = "future_weather">
+
+                <div class = "day">
+                    <p id="day1">-</p>
+                    <p id="temp1">-°C</p>
+                    <img id ="image1" src = "images/clear.png">
+                </div>
+
+                <div class = "day">
+                    <p id="day2">-</p>
+                    <p id="temp2">-°C</p>
+                    <img id ="image2" src = "images/clear.png"> 
+                 </div>
+
+                 <div class = "day">
+                    <p id="day3">-</p>
+                    <p id="temp3">-°C</p>
+                    <img id ="image3" src = "images/clear.png"> 
+                 </div>
+
+                 <div class = "day">
+                    <p id="day4">-</p>
+                    <p id="temp4">-°C</p>
+                    <img id ="image4" src = "images/clear.png"> 
+                 </div>
+                
+            </div>
+
+        </div>
+        <script src = "script.js"></script>
+    </body>
+</html>
